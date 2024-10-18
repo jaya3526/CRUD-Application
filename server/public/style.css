@@ -1,0 +1,75 @@
+*{
+    padding: 2px;
+    margin: 3px;
+}
+#addbtn,#add,#cancelUser,#edit,#cancelEdit{
+    background-color: rgb(97, 133, 242);
+    border-radius: 5px;
+    margin: 5px;
+    width: 100px;
+    height:40px;
+    cursor: pointer;
+}
+th{
+    font-size: 20px;
+    width:160px;
+    text-align: left;
+    height: 40px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#editIcon,#deleteIcon,#viewIcon{
+    width: 100px;
+    height:20px;
+   font-size:20px;
+   border-collapse: collapse;
+   cursor: pointer;
+}
+#tableHead{
+    background-color: rgb(219,219,219);
+}
+.addUser{
+    width:400px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    top:25%;
+    left:25%;
+    position: absolute;
+    transform: translate((-50%,-50%));
+    box-shadow: 10px 10px 10px 10px rgb(157, 152, 152);
+    display: none;
+}
+.editUser{
+    width:400px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    top:25%;
+    left:25%;
+    position: absolute;
+    transform: translate((-50%,-50%));
+    box-shadow: 10px 10px 10px 10px rgb(157, 152, 152);
+    display: none;
+}
+.viewUser{
+    background-color: rgb(222, 235, 186);
+    width:700px;
+    display: none;
+   left:25%;
+   top:25%;
+   position: absolute;
+}
+h4{
+    color: rgb(232, 26, 26);
+}
+#viewClose{
+    font-size: 25px;
+}
+.viewUser button{
+    width:40px;
+    float: right;
+}
+span{
+    color: black;
+}

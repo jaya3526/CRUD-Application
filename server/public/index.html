@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>
+            <center>
+                <bold>Items Details</bold>
+            </center>
+        </h1>
+        <div class="addItem">
+            <button id="addbtn" onclick="addNewUser()">AddItem</button>
+        </div>
+        <div class="itemsTable">
+            <table>
+                <tbody>
+                    <tr id="tableHead">
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Brand</th>
+                        <th>Weight</th>
+                        <th>Color</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tbody>
+            </table>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    <div class="addUser">
+        <form class="addUserForm">
+            <!-- <label for="id" class="id">Enter Id</label>
+            <input type="number" id="id"><br> -->
+            <label for="name" class="name">Enter Item Name</label>
+            <input type="text" class="text" id="name"><br>
+            <label for="description" class="description">Enter description of item</label>
+            <input type="text" id="description"><br>
+            <label for="price" class="price">Enter Price of item</label>
+            <input type="number" id="price"><br>
+            <label for="Category" class="Category">Enter category of item</label>
+            <input type="text" id="category"><br>
+            <label for="quanity" class="quantity">Enter quanity of item</label>
+            <input type="number" id="quantity"><br>
+            <label for="brand" class="brand">Enter Brand of Item</label>
+            <input type="text" id="brand"><br>
+            <label for="weight" class="weight">Enter weight of Item in grams</label>
+            <input type="number" id="weight"><br>
+            <label for="color" class="color">Enter color of Item in grams</label>
+            <input type="text" id="color"><br>
+            <button id="add" type="submit">ADD</button>
+            <input type="button" value="Cancel" id="cancelUser" onclick="cancelItem()">
+        </form>
+    </div>
+    <div class="editUser">
+        <form class="editUserForm">
+            <!-- <label for="id" class="id">Enter Id</label>
+            <input type="number" id="eid"><br> -->
+            <label for="name" class="name">Enter Item Name</label>
+            <input type="text" class="text" id="ename"><br>
+            <label for="decription" class="decription">Enter description of item</label>
+            <input type="text" id="edescription"><br>
+            <label for="price" class="price">Enter Price of item</label>
+            <input type="number" id="eprice"><br>
+            <label for="Category" class="Category">Enter category of item</label>
+            <input type="text" id="ecategory"><br>
+            <label for="quanity" class="quantity">Enter quanity of item</label>
+            <input type="number" id="equantity"><br>
+            <label for="brand" class="brand">Enter Brand of Item</label>
+            <input type="text" id="ebrand"><br>
+            <label for="weight" class="weight">Enter weight of Item in grams</label>
+            <input type="number" id="eweight"><br>
+            <label for="color" class="color">Enter color of Item in grams</label>
+            <input type="text" id="ecolor"><br>
+            <button id="edit" type="submit">Update</button>
+            <input type="button" value="Cancel" id="cancelEdit" onclick="cancelEditItem()">
+        </form>
+    </div>
+
+    <div class="viewUser">
+        <button onclick="cancelView()"><i class="fa fa-close" id="viewClose"></i></button>
+        <h4>Item Name:<span id="vname"></span></h4>
+        <h4>Category:<span id="vcategory"></span></h4>
+        <h4>Description:<span id="vdescription"></span></h4>
+        <h4>Brand:<span id="vbrand"></span></h4>
+        <h4>Price:<span id="vprice"></span></h4>
+        <h4>Quantity:<span id="vquantity"></span></h4>
+        <h4>Weight:<span id="vweight"></span></h4>
+        <h4>Color:<span id="vcolor"></span></h4>
+    </div>
+</body>
+
+</html>
+
+<!-- decription and quanity was removed -->
