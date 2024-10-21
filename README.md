@@ -1,6 +1,6 @@
 # Simple CRUD Application Using MongoDB
 
-This project is a simple CRUD (Create, Read, Update, Delete) application that allows users to manage items with attributes like name, description, and price using MongoDB as the database.
+This project is a Items data management application that allows users to manage items with attributes like name, description, and price using MongoDB as the database.
 
 ## Project Structure
 server/
